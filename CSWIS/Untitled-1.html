@@ -1,0 +1,2608 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <link rel="shortcut icon" href="https://aris3.udsm.ac.tz/favicon.ico" sizes="100x100" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title></title>
+        <link href="/assets/35168c23/css/bootstrap.css" rel="stylesheet">
+<link href="/theme/assets/css/google_fonts.css" rel="stylesheet">
+<link href="/theme/assets/css/icons/icomoon/styles.css" rel="stylesheet">
+<link href="/theme/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/theme/assets/css/core.css" rel="stylesheet">
+<link href="/theme/assets/css/components.css" rel="stylesheet">
+<link href="/theme/assets/css/colors.css" rel="stylesheet">
+<link href="/theme/assets/css/style.css" rel="stylesheet">
+<link href="/theme/assets/css/extras/animate.min.css" rel="stylesheet">        <script src="theme/assets/js/core/libraries/jquery.min.js" ></script>    </head>
+    <body>
+        
+        <div class="wrap">
+
+            
+
+<style>
+    .ui-pnotify {
+        width: 400px !important;
+    }
+</style>
+    <script>
+        $(document).ready(function () {
+            // Session timeout
+            $.sessionTimeout({
+                heading: 'h5',
+                title: 'Session Timeout!',
+                message: 'Your session is about to expire. Do you want to stay connected and extend your session?',
+                ignoreUserActivity: false,
+                warnAfter: 600000,
+                redirAfter: 660000,
+                keepAliveUrl: '/',
+                keepAlive: true,
+                keepAliveInterval: 660000,
+                redirUrl: 'https://aris3.udsm.ac.tz/staff/index.php?r=security/user/logout',
+                logoutUrl: 'https://aris3.udsm.ac.tz/staff/index.php?r=security/user/logout',
+                keepBtnClass: 'btn btn-success',
+                keepBtnText: 'Extend session',
+                logoutBtnClass: 'btn btn-danger',
+                logoutBtnText: 'Log me out',
+
+            });
+        });
+    </script>
+
+    
+
+
+
+
+
+
+    <script type="text/javascript" src="theme/assets/js/plugins/ui/fab.min.js"></script>
+<!-- Main navbar -->
+<div id="theme_topBar"
+     class="navbar navbar-default header-highlight bg-header-highlight bg--300">
+    <div id="theme_logoBar" class="navbar-header bg-blue-600"
+         style="text-align: center;">
+        <!--<a class="navbar-brand text-white text-bold text-center" href="../staff"><img src="<? /*= $themeUrl; */ ?>/assets/images/logo_light.png"  alt="<? /*= Yii::$app->name; */ ?>" /></a>-->
+        <img src="theme/assets/images/logo_light.png" alt="ARIS 3.0" height="46px"/>
+        <ul class="nav navbar-nav visible-xs-block">
+            <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+            <li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="navbar-collapse collapse" id="navbar-mobile">
+        <ul class="nav navbar-nav">
+            <li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a>
+            </li>
+            
+                
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="display: none">
+                            <i class="icon-satellite-dish2"></i>
+                            <span class="visible-xs-inline-block position-right">System updates</span>
+                            <span class="badge bg-warning-400">9</span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-content">
+                            <div class="dropdown-content-heading">
+                                Available updates
+                                <ul class="icons-list">
+                                    <li><a href="#"><i class="icon-sync"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <ul class="media-list dropdown-content-body width-350">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#"
+                                           class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i
+                                                    class="icon-file-stats2"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        FINANCIAL: <a href="#">Extra Graphical Reports </a> improves financial analysis
+                                        <div class="media-annotation">4 minutes ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#"
+                                           class="btn border-warning text-warning btn-flat btn-rounded btn-icon btn-sm"><i
+                                                    class="icon-mail-read"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        INFORMATION CENTER: Free Bonus TOKEN for 100 SMS
+                                        <div class="media-annotation">36 minutes ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#"
+                                           class="btn border-info text-info btn-flat btn-rounded btn-icon btn-sm"><i
+                                                    class="icon-stack2"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        SYSTEM: Additional <a href="#">Themes</a> improving the <span
+                                                class="text-semibold">look</span> of your system
+                                        <div class="media-annotation">2 hours ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#"
+                                           class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i
+                                                    class="icon-pulse2"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        SYSTEM: Bonus <a href="#">LICENSE TOKEN</a> <span
+                                                class="text-semibold">Boost</span> your license expiry period up to
+                                        <span class="text-semibold">5</span> more days
+                                        <div class="media-annotation">Dec 18, 18:36</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#"
+                                           class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i
+                                                    class="icon-gift"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Have Carousel ignore keyboard events
+                                        <div class="media-annotation">Dec 12, 05:46</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="dropdown-content-footer">
+                                <a href="#" data-popup="tooltip" title="All activity"><i
+                                            class="icon-menu display-block"></i></a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <p class="navbar-text"><span class="label bg-success">Online</span></p>
+
+
+                                                        <p class="navbar-text"><span class="label bg-success"><i class="icon-checkmark4"></i> DSM ON</span></p>
+            
+        </ul>
+
+        <p class="navbar-text text-size-large text-bold" style="font-size: large;">
+            <span class="text-thin">Current Academic Year</span>
+            : 2021/22        </p>
+
+        <ul class="nav navbar-nav navbar-right">
+
+            
+
+            <li class="dropdown" id="systemNotifications">
+                
+
+
+
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-bell3 text-muted"></i>
+        <span class="visible-xs-inline-block position-right">Notifications</span>
+        <!--span class="badge bg-warning-400"></span-->
+
+        
+    </a>
+
+    <div class="dropdown-menu dropdown-content width-350">
+        <div class="dropdown-content-heading">
+            Notifications
+            <ul class="icons-list" hidden>
+                <li><a href="#"><i class="icon-compose"></i></a></li>
+            </ul>
+        </div>
+
+        <ul class="media-list dropdown-content-body">
+
+            <li class='text-muted'> <i class='icon-history'></i></i> No new Notifications...</li><hr>            
+        </ul>
+
+        <div class="dropdown-content-footer" hidden>
+            <a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
+        </div>
+    </div>
+
+
+            </li>
+
+
+            <li class="dropdown dropdown-user">
+                <a class="dropdown-toggle" data-toggle="dropdown">
+                    <img src="https://aris3.udsm.ac.tz/uploaded_files/student/photos/2019-04-05756.jpg"
+                         width="30px" height="30px" alt="">
+                    <span>2019-04-05756</span>
+                    <i class="caret"></i>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a href="https://aris3.udsm.ac.tz/index.php?r=student/my-profile/profile"><i class="icon-user-plus"></i> My
+                                profile</a></li>
+                        <!-- <li><a href="<? /*= SecurityModule::AutoUrl('balance'); */ ?>"><i class="icon-coins"></i> My
+                                balance</a></li>
+                        <li><a href="<? /*= SecurityModule::AutoUrl('message'); */ ?>"><span
+                                        class="badge bg-teal-400 pull-right">58</span> <i
+                                        class="icon-comment-discussion"></i> Messages</a></li>
+                        <li class="divider"></li>-->
+
+                        
+                        <li><a href="https://aris3.udsm.ac.tz/index.php?r=student/my-profile/logout"><i class="icon-switch2"></i>
+                                Logout(2019-04-05756)</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- /main navbar -->
+<script>
+    $(document).ready(function () {
+        // Block page
+        $('.block-page').on('click', function () {
+            var message = '<i class="icon-spinner4 icon-3x spinner"></i> <span class="text-semibold display-block">Please wait</span>';
+            $.blockUI({
+                //message: '<i class="icon-spinner4 spinner"></i>',
+                message: message,
+                // timeout: 1000*60, //unblock after 1 minute
+                timeout: 10000, //unblock after 1 minute
+                // timeout: 1000*60*10, //unblock after 10 Minutes
+                overlayCSS: {
+                    backgroundColor: '#1b2024',
+                    opacity: 0.8,
+                    zIndex: 1200,
+                    cursor: 'wait'
+                },
+                css: {
+                    border: 0,
+                    color: '#fff',
+                    padding: 0,
+                    zIndex: 1201,
+                    backgroundColor: 'transparent'
+                },
+                onBlock: function () {
+                    clearTimeout();
+                }
+            });
+
+
+        });
+
+        window.onload = () => {
+            loadSystemLogo();
+        };
+        $('.sidebar-main-toggle').click(() => {
+            updateSystemLogo();
+        });
+    });
+
+    function updateSystemLogo() {
+        const prefix = `.`;
+        const mainSideBar = document.getElementById('theme_logoBar');
+        if (mainSideBar != undefined && mainSideBar.hasChildNodes()) {
+            const systemLogo = mainSideBar.children[0];
+            if (systemLogo != undefined) {
+                if ($('body').hasClass('sidebar-xs')) {
+                    systemLogo.src = `${prefix}/uploaded_files/security/system-logos/logo.light.png`;
+                } else {
+                    systemLogo.src = `${prefix}/uploaded_files/security/system-logos/logo.min.png`;
+                }
+            }
+        }
+    }
+
+    function loadSystemLogo() {
+        const prefix = `.`;
+        const mainSideBar = document.getElementById('theme_logoBar');
+        if (mainSideBar != undefined && mainSideBar.hasChildNodes()) {
+            const systemLogo = mainSideBar.children[0];
+            if (systemLogo != undefined) {
+                if ($('body').hasClass('sidebar-xs')) {
+                    systemLogo.src = `${prefix}/uploaded_files/security/system-logos/logo.min.png`;
+                } else {
+                    systemLogo.src = `${prefix}/uploaded_files/security/system-logos/logo.light.png`;
+                }
+            }
+        }
+    }
+</script>
+
+            <!-- Page container -->
+            <div class="page-container">
+
+                <!-- Page content -->
+                <div class="page-content">
+                                                            
+
+<!-- Main sidebar -->
+<div id="theme_sideBar" class="sidebar sidebar-main bg-blue-800">
+    <div class="sidebar-content">
+
+        <!-- Company menu -->
+        
+
+<div class="sidebar-user">
+    <div class="category-content">
+        <div class="media">
+
+            <div class="media-body">
+                <div class="text-center">
+                    <a href="https://www.udsm.ac.tz" class="media-center" target="_blank">
+                        <img src="https://aris3.udsm.ac.tz/uploaded_files/security/company/photos/company_logo.png" class="img-circle" width="100px" alt="">
+                    </a>
+
+                </div>
+                <span class="media-heading text-size-mini text-thin text-center text-semibold text-uppercase">University of Dar es Salaam</span>
+                <div class="text-size-mini text-muted text-center">
+                    <i class="icon-pin text-size-small"></i> UDSM                </div>
+            </div>
+
+            <div class="media-right media-middle">
+                <ul class="icons-list">
+                    <li>
+                        <a href="#"><i class="icon-cog3"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>        <!-- /Company menu -->
+
+
+        <!-- Main navigation -->
+        <div class="sidebar-category sidebar-category-visible">
+            <div class="category-content no-padding">
+                <ul class="navigation navigation-main navigation-accordion">
+
+
+                    <li style="display: block;"
+                        class=""><a
+                                href="/index.php?r=student%2Fdefault%2Findex"><i
+                                    class="icon-user"></i> <span>Dashboard</span></a></li>
+
+
+                    <li>
+                        <a href="#"><i class="icon-profile"></i> <span>My Profile</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fview "
+                                        id=""> Profile Details</a></li>
+                        </ul>
+                    </li>
+
+                    <!--Depreciated-->
+                    <li hidden>
+                        <a href="#"><i class="icon-profile"></i> <span>My Profile</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-eye"></span> Profile Preview</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fedit "
+                                        id=""><span class="icon-pencil"></span> Edit Profile</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-task%2Findex "
+                                        id=""><span class="icon-calendar22"></span> My Tasks</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fchange-password "
+                                        id=""><span class="icon-key"></span> Change Password</a></li>
+
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="#"><i class="icon-plus22"></i> <span>Registration</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-semester-year-registration%2Findex "
+                                        id=""> My Semester/Year Registration</a></li>
+                            <li style="display: block;"
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-course-registration%2Findex "
+                                        id=""> My Course Registration</a></li>
+                            <!-- li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-identity%2Findex "
+                                        id=""> My Identity</a></li -->
+
+
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-transfer%2Findex "
+                                        id=""> My Programme Transfer</a></li>
+                        </ul>
+                    </li>
+
+                    <!--Old/Depreciated Registration Menu Items-->
+                    <li hidden>
+                        <a href="#"><i class="icon-quill2"></i> <span>Registration</span></a>
+                        <ul>
+                            <!--                        <li style="" class=""><a href="/index.php?r=student%2Fnormal-registration%2Findex " id=""><span class="icon-thumbs-up2"></span> Student Declaration</a></li>-->
+                            <li>
+                                <a href="#"><i class="icon-stack2"></i> <span> Course Registration </span></a>
+                                <ul>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Fnormal-course-registration%2Findex "
+                                           id=""> Normal Course</a></li>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Fcarry-over-course-registration%2Findex "
+                                           id=""><span></span> Carry Over Course </a></li>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Frepeat-course-registration%2Findex "
+                                           id=""><span></span> Repeat Course </a></li>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Fspecial-supplementary-registration%2Findex "
+                                           id=""><span></span> Special Supplementary </a></li>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Fspecial-examination-registration%2Findex "
+                                           id=""><span></span> Special Examination </a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-rotate-cw3"></i> <span> Course Rotation </span></a>
+                                <ul>
+                                    <li style=""
+                                        class="">
+                                        <a href="/index.php?r=student%2Fcourse-rotation-registration%2Findex "
+                                           id=""> Registration</a></li>
+
+                                </ul>
+                            </li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fextension-registration%2Findex "
+                                        id=""><span class="icon-link"></span> Extension Registration</a></li>
+                            <!--                      <li style="" class=""><a href="/index.php?r=student%2Fmy-extension%2Findex " id=""><span class="icon-alarm-add"></span> Course Registration </a></li>-->
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="icon-book"></i> <span>Academics</span></a>
+                        <!--Online Supervisions-->
+                        <ul>
+                            
+                            <li style="display: block;"
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-c-a%2Findex "
+                                        id=""><i class="icon-reading"></i> My CA</a></li>
+
+                            <li style="display: block;"
+                                class="active"><a
+                                        href="/index.php?r=student%2Fmy-u-e%2Findex "
+                                        id=""><i class="icon-book"></i> My UE</a></li>
+
+
+                            <li style="display: block;"
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-result%2Findex "
+                                        id=""> My Courses & Results</a></li>
+
+
+                                                                                                <li style="display: block;"
+                                        class="">
+                                        <a href="/index.php?r=student%2Fmy-statement-of-result-request "
+                                           id=""><span class=""></span>My Statement of Results</a></li>
+                                                                                                                                <!-- li style="display: none;"
+                                    class=""><a
+                                            href="/index.php?r=student%2Fmy-progress-report "
+                                            id=""><span class=""></span>My Progress Report</a></li -->
+                                                    </ul>
+                        <!--End Online Supervisions-->
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-graduation"></i> <span>Graduation</span></a>
+                        <!--Graduation-->
+                        <ul>
+                                                            <li style="display: block;"
+                                    class="">
+                                    <a href="/index.php?r=student%2Fmy-graduation-requirement "
+                                       id=""><span class=""></span>My Graduation Requirements </a></li>
+                                <li style="display: block;"
+                                    class="">
+                                    <a href="/index.php?r=student%2Fmy-graduation-attendance-confirmation "
+                                       id=""><span class=""></span>My Attendance Confirmation </a></li>
+                                                    </ul>
+                        <!--End Graduation-->
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-cash3"></i> <span>Payments</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-payment%2Fcreate "
+                                        id=""><span class="icon-credit-card2"></span> Make Payment</a></li>
+
+
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-payment%2Findex "
+                                        id=""><span class="icon-wallet"></span> My Payments</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-payment-refund%2Findex "
+                                        id=""><span class="icon-reply-all"></span> Apply for Refund</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-payment-transfer%2Findex "
+                                        id=""><span class="icon-strategy"></span> Payment Transfers</a></li>
+
+                            <li style="display: block;"
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-sponsorship%2Findex"
+                                        id=""><span class="icon-medal"></span> My Sponsorship</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="icon-home9"></i> <span>Accommodation</span></a>
+                        <ul>
+                                                                                        
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-bed%2Findex "
+                                        id=""><span class="icon-bed2"></span> My Bed</a></li>
+
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-bed-swapping%2Findex "
+                                        id=""><span class="icon-tab"></span> Bed Swapping</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-bed-releasing%2Findex "
+                                        id=""><span class="icon-unlocked"></span> Release a Bed</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-room-clearance%2Findex "
+                                        id=""><span class="icon-clipboard2"></span> Clearance</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-accommodation-incident%2Findex "
+                                        id=""><span class="icon-bubble-notification"></span> Report an Incident</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-mouse"></i> <span>MISC</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-box-add"></span> Vote</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-chart"></i> <span>Reports</span></a>
+                        <ul>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-stats-bars4"></span> Progressive</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-pie-chart"></span> Payments</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-profile"></span> Profile</a></li>
+                            <li style=""
+                                class=""><a
+                                        href="/index.php?r=student%2Fmy-profile%2Fprofile "
+                                        id=""><span class="icon-gear"></span> MISC</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /main navigation -->
+    </div>
+</div>
+<!-- /main sidebar -->
+                    <!-- Main content -->
+                    <div class="content-wrapper">
+
+                        <!-- Content area -->
+                        <!--<div class="content">-->
+                        <div class="page-header-default">
+                            <div class="breadcrumb-line breadcrumb-line-component">
+
+                                
+                                                                
+    <ul class="breadcrumb-elements">
+        <li style="display: none"><a href="#"><i class="icon-comment-discussion position-left"></i> Support</a></li>
+
+        
+    </ul>
+
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+
+                            <?/*= Alert::widget(); */?>
+
+                                                        
+<script>
+    function playSound() {
+        const audio = document.createElement('audio');
+        document.body.append(audio);
+        audio.src = `https://aris3.udsm.ac.tz/uploaded_files/security/notification/sounds/for-sure.mp3`;
+        document.body.onfocus = () => {
+            audio.play();
+        }
+    }
+    function readNotification(notificationId) {
+        $.ajax({
+            url: `/index.php?r=notification%2Fread&id=${notificationId}`,
+            success: (response) => {
+                console.log(response);
+            }
+        });
+    }
+</script>
+
+<script>
+    function syncNotifications() {
+        setInterval(() => {
+            $.ajax({
+                url: `/index.php?r=notification%2Fsync`,
+                success: (response) => {
+                    const responseBundle = JSON.parse(response);
+                    if (responseBundle.type == 1) {
+                        const notifications = responseBundle.notifications;
+                        $('#systemNotifications').html(notifications);
+                        playSound();
+                    }
+                },
+                error: (error) => {
+                    //TODO: Error handling
+                }
+            });
+        }, 1000);
+    }
+</script>
+
+
+
+                            
+    <script>
+        function RowChildLoader ( rowData ) {
+            let div = $('<div/>')
+                .addClass( 'loading' )
+                .text( 'Loading...' );
+            let progressMessage = "<span class='text-size-large'><i class='icon-spinner10 icon-2x spinner'></i> Please Wait ... </span>";
+            div.html(progressMessage);
+            let flipDiv = rowData[1];
+            let divArray = flipDiv.split('"');
+            let  id = divArray[1];
+            let totalUE = 0;
+            let table = '<table class="table table-striped table-condensed table-hover table-bordered"  style="width: 100%;">' +
+                '<thead class="bg-brown-400">' +
+                '<tr class="border-double">' +
+                '<th>S/N</th>' +
+                '<th>ACTIVITY</th>' +
+                '<th>TYPE</th>' +
+                '<th>NATURE</th>' +
+                '<th>SCORE</th>' +
+                '<th>TOTAL UE</th>' +
+                '<th>STATUS</th>' +
+                '<th>REMARKS</th>' +
+                '</tr>' +
+                '</thead>' +
+                '<tbody id="body'+id+'">';
+            $.ajax({
+                url:'https://aris3.udsm.ac.tz/staff/index.php?r=academics/u-e-result/student-data-table',
+                type:'POST',
+                cache:false,
+                data:{
+                    csrf:"C-M9q7evQifTTdfR1oSib2KHL4yklWcnoLoUpAL1_jFTlnTs9METYKId44PnqZtWEOJpoZfyMHD20WLgcqeoZw==",
+                    student_id: '25528',
+                    offering: id
+                },
+
+                beforeSend:function () {
+                    div.text(progressMessage);
+                },
+                error:function (error) {
+                    swal({
+                        title: "ERROR!",
+                        text: error.responseText,
+                        type: "error",
+                        confirmButtonColor: "#2196F3"
+                    });
+                },
+                success:function (data) {
+                    let output = $.parseJSON(data);
+                    let counter = 0;
+
+                    div
+                        .html( output.html )
+                        .removeClass( 'loading' );
+                    div.text("");
+
+                    let colorClass = '';
+                    $.each(output,function (index,value) {
+                        counter++;
+                        if(value.csr_status_id === '2'){ colorClass = ''; }else{ colorClass = 'text-danger text-italic'; }
+
+
+                        table+=
+                            '<tr class="'+colorClass+'">' +
+                            '<td>'+counter+'</td>' +
+                            '<td>'+value.name+'</td>' +
+                            '<td>'+value.type+'</td>' +
+                            '<td>'+value.nature+'</td>';
+
+                        if(value.csr_status_id === '2'){
+                            // totalScore+= (value.score*1);
+
+                            //score_grade
+                            switch (value.score_type){
+                                case "1":
+                                    totalUE+= (value.ue_component_marks*1);
+                                    table+=
+                                        '<td  class="text-right">'+value.score+'/'+value.total_scores+'</td>' +
+                                        '<td  class="text-right">'+value.ue_component_marks+'</td>';
+                                    break;
+
+                                case "2":
+                                    totalUE=0;
+                                    table+=
+                                        '<td  class="text-center">'+value.score_grade+'</td>'+
+                                        '<td  class="text-center">'+value.score_grade+'</td>';
+                                    break;
+                            }
+
+
+                        }else {
+                            table+=
+                                '<td>---</td>' +
+                                '<td>---</td>';
+
+                        }
+                        table+=
+                            '<td>'+value.ucr_status+'</td>' +
+                            '<td>'+value.status_remarks+'</td>' +
+                            '</tr>';
+
+
+                    });
+
+                },
+                complete:function () {
+                    table+=
+                        '</tbody>' +
+                        '<tfoot class="bg-brown-400" id="foot'+id+'">' +
+
+                        '<tr class="border-double">' +
+                        '<th></th>' +
+                        '<th></th>' +
+                        '<th></th>' +
+                        '<th class="text-right">TOTAL</th>' +
+
+                        '<th></th>' +
+                        '<th class="text-right text-size-large text-bold">'+totalUE.toFixed(2)+'</th>' +
+                        '<th></th>' +
+                        '<th></th>' +
+                        '</tr>'+
+                        '</tfoot>' +
+                        '</table>';
+
+                    div.append(table);
+                }
+            });
+
+
+            return div;
+        }
+        function DataLoader(GridDT,student,academicYear){
+
+            $.ajax({
+                url:'https://aris3.udsm.ac.tz/index.php?r=student/my-u-e/my-courses',
+                type:'POST',
+                cache:false,
+                data:{
+                    csrf:"C-M9q7evQifTTdfR1oSib2KHL4yklWcnoLoUpAL1_jFTlnTs9METYKId44PnqZtWEOJpoZfyMHD20WLgcqeoZw==",
+                    student_id:student,
+                    academic_year:academicYear,
+                    semester:$("#semester").val()
+                },
+                beforeSend:function () {
+
+                },
+                error:function (error) {
+
+                    swal({
+                        title: "ERROR!",
+                        text: error.responseText,
+                        type: "error",
+                        confirmButtonColor: "#2196F3"
+                    });
+                },
+                success:function (data) {
+                    let output = $.parseJSON(data);
+
+                    GridDT.clear();
+                    $.each(output,function (index,value) {
+
+                        let offering = value.course_offering_id;
+
+                        GridDT.row.add([
+                            '',
+                            '<div data-pk="'+offering+'"></div>',
+                            '<div class="text-nowrap">'+value.course+ '</div>',
+                            '<div class="text-nowrap">'+value.minimum_ue+ '</div>',
+                            '<div class="text-nowrap text-bold text-size-large">'+ordinalSuffixFancy(value.semester_number)+ ' Semester</div>',
+                        ]);
+                    });
+
+                    GridDT.draw();
+                    $(".styled").uniform();
+
+                },
+                complete:function () {
+
+                }
+            });
+        }
+    </script>
+
+    <div class="panel panel-flat">
+        <div class="panel-heading">
+            <h4><i class="icon-book icon-2x"></i> My UE Results</h4>
+        </div>
+        <div class="panel-body">
+            <div class="tabbable">
+                <ul class="nav nav-tabs nav-tabs-highlight nav-justified">
+                                            <li class=""><a href="#tab_yos_931556" data-toggle="tab" class="">1<sup>st</sup> Year (2019/20)</a></li>
+                                            <li class=""><a href="#tab_yos_931557" data-toggle="tab" class="">2<sup>nd</sup> Year (2020/21)</a></li>
+                                            <li class="active"><a href="#tab_yos_485383" data-toggle="tab" class="text-success-800 text-bold">3<sup>rd</sup> Year (2021/22)</a></li>
+                    
+                </ul>
+                <div class="tab-content">
+                                            <div class="tab-pane animated fadeInUp " id="tab_yos_931556">
+                            <h5 class="heading-divided">1<sup>st</sup> Year UE Results</h5>
+                            
+
+<table class="table table-bordered table-striped table-hover table-condensed" id="my_course_ue931556" style="width: 100%;">
+    <thead class="text-uppercase bg-blue-700">
+    <tr class="border-double">
+        <th width="10px">S/N</th>
+        <th width="10px"><i class="icon-eye"></i></th>
+        <th> Course</th>
+        <th width="60px" class="text-nowrap"> Min. UE</th>
+        <th width="120px"> Semester</th>
+    </tr>
+    </thead>
+    <tbody id="my_course_ue_body931556"></tbody>
+</table>
+
+<script>
+    $('body').addClass("sidebar-xs");
+
+
+
+    $(document).ready(function () {
+        // Select with search
+        $('.select-search').select2();
+        $('body').on('change keyup','.select',function () {
+            $(".select2-selection__rendered").prop("style",'padding-left: 20px;');
+        });
+
+        var groupColumn = 4;
+        var GridDT931556 = $('#my_course_ue931556').DataTable({
+            stateSave: false,
+            pageLength: -1,
+            lengthMenu: [[-1,10, 25, 50,100,1000, -1], ["All",10, 25, 50,100,1000,"All"]],
+
+            columnDefs: [
+                {"searchable": false, "orderable": false, "targets": 0} ,
+                {"searchable": false, "orderable": false, "targets": 1, 'className':'details-control','data': null,'defaultContent': '<i class=\'icon-plus-circle2 text-success\' style=\'cursor: pointer;\'></i>'} ,
+                {"visible": false, "targets": groupColumn } ,
+            ],
+            select: {
+                style:    'os',
+                selector: 'td:first-child'
+            },
+
+            "order": [[ groupColumn, 'asc' ]],
+            /*select: {
+                style:    'os',
+                selector: 'td:first-child'
+            }*/
+            "displayLength": 25,
+            "drawCallback": function ( settings ) {
+                var api = this.api();
+                var rows = api.rows( {page:'current'} ).nodes();
+                var last=null;
+
+                api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
+                    if ( last !== group ) {
+                        $(rows).eq( i ).before(
+                            '<tr class="group"><td colspan="6">'+group+'</td></tr>'
+                        );
+
+                        last = group;
+                    }
+                } );
+            }
+        });
+
+        //indexing first column
+        GridDT931556.on( 'order.dt search.dt', function () {
+            GridDT931556.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+                cell.innerHTML = i+1;
+            } );
+        } ).draw();
+
+
+        // Add placeholder to the datatable filter option
+        $('.dataTables_filter input[type=search]').attr('placeholder','Type to Filter...');
+
+        // Enable Select2 select for the length option
+        $('.dataTables_length select').select2({
+            minimumResultsForSearch: Infinity,
+            width: 'auto'
+        });
+
+        // Order by the grouping
+        $('#my_course_ue931556 tbody').on( 'click', 'tr.group', function () {
+            var currentOrder = GridDT931556.order()[0];
+            if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
+                GridDT931556.order( [ groupColumn, 'desc' ] ).draw();
+            }
+            else {
+                GridDT931556.order( [ groupColumn, 'asc' ] ).draw();
+            }
+        } );
+
+        DataLoader(GridDT931556,25528,30);
+
+
+
+
+        $('#my_course_ue931556 tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = GridDT931556.row( tr );
+
+
+
+            if ( row.child.isShown() ) {
+                row.child.hide();
+                tr.removeClass('border-double');
+                tr.removeClass('shown');
+
+                $(this).html("<i class='icon-plus-circle2 text-success' style='cursor: pointer;'></i>");
+            }
+            else {
+                tr.addClass('border-double');
+                $(this).html("<i class='icon-minus-circle2 text-danger' style='cursor: pointer;'></i>");
+                // row.child( format(row.data()) ).show();
+                row.child( RowChildLoader(row.data()) ).show();
+                tr.addClass('shown');
+            }
+        } );
+
+    });
+</script>
+
+                        </div>
+                                            <div class="tab-pane animated fadeInUp " id="tab_yos_931557">
+                            <h5 class="heading-divided">2<sup>nd</sup> Year UE Results</h5>
+                            
+
+<table class="table table-bordered table-striped table-hover table-condensed" id="my_course_ue931557" style="width: 100%;">
+    <thead class="text-uppercase bg-blue-700">
+    <tr class="border-double">
+        <th width="10px">S/N</th>
+        <th width="10px"><i class="icon-eye"></i></th>
+        <th> Course</th>
+        <th width="60px" class="text-nowrap"> Min. UE</th>
+        <th width="120px"> Semester</th>
+    </tr>
+    </thead>
+    <tbody id="my_course_ue_body931557"></tbody>
+</table>
+
+<script>
+    $('body').addClass("sidebar-xs");
+
+
+
+    $(document).ready(function () {
+        // Select with search
+        $('.select-search').select2();
+        $('body').on('change keyup','.select',function () {
+            $(".select2-selection__rendered").prop("style",'padding-left: 20px;');
+        });
+
+        var groupColumn = 4;
+        var GridDT931557 = $('#my_course_ue931557').DataTable({
+            stateSave: false,
+            pageLength: -1,
+            lengthMenu: [[-1,10, 25, 50,100,1000, -1], ["All",10, 25, 50,100,1000,"All"]],
+
+            columnDefs: [
+                {"searchable": false, "orderable": false, "targets": 0} ,
+                {"searchable": false, "orderable": false, "targets": 1, 'className':'details-control','data': null,'defaultContent': '<i class=\'icon-plus-circle2 text-success\' style=\'cursor: pointer;\'></i>'} ,
+                {"visible": false, "targets": groupColumn } ,
+            ],
+            select: {
+                style:    'os',
+                selector: 'td:first-child'
+            },
+
+            "order": [[ groupColumn, 'asc' ]],
+            /*select: {
+                style:    'os',
+                selector: 'td:first-child'
+            }*/
+            "displayLength": 25,
+            "drawCallback": function ( settings ) {
+                var api = this.api();
+                var rows = api.rows( {page:'current'} ).nodes();
+                var last=null;
+
+                api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
+                    if ( last !== group ) {
+                        $(rows).eq( i ).before(
+                            '<tr class="group"><td colspan="6">'+group+'</td></tr>'
+                        );
+
+                        last = group;
+                    }
+                } );
+            }
+        });
+
+        //indexing first column
+        GridDT931557.on( 'order.dt search.dt', function () {
+            GridDT931557.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+                cell.innerHTML = i+1;
+            } );
+        } ).draw();
+
+
+        // Add placeholder to the datatable filter option
+        $('.dataTables_filter input[type=search]').attr('placeholder','Type to Filter...');
+
+        // Enable Select2 select for the length option
+        $('.dataTables_length select').select2({
+            minimumResultsForSearch: Infinity,
+            width: 'auto'
+        });
+
+        // Order by the grouping
+        $('#my_course_ue931557 tbody').on( 'click', 'tr.group', function () {
+            var currentOrder = GridDT931557.order()[0];
+            if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
+                GridDT931557.order( [ groupColumn, 'desc' ] ).draw();
+            }
+            else {
+                GridDT931557.order( [ groupColumn, 'asc' ] ).draw();
+            }
+        } );
+
+        DataLoader(GridDT931557,25528,31);
+
+
+
+
+        $('#my_course_ue931557 tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = GridDT931557.row( tr );
+
+
+
+            if ( row.child.isShown() ) {
+                row.child.hide();
+                tr.removeClass('border-double');
+                tr.removeClass('shown');
+
+                $(this).html("<i class='icon-plus-circle2 text-success' style='cursor: pointer;'></i>");
+            }
+            else {
+                tr.addClass('border-double');
+                $(this).html("<i class='icon-minus-circle2 text-danger' style='cursor: pointer;'></i>");
+                // row.child( format(row.data()) ).show();
+                row.child( RowChildLoader(row.data()) ).show();
+                tr.addClass('shown');
+            }
+        } );
+
+    });
+</script>
+
+                        </div>
+                                            <div class="tab-pane animated fadeInUp active" id="tab_yos_485383">
+                            <h5 class="heading-divided">3<sup>rd</sup> Year UE Results</h5>
+                            
+
+<table class="table table-bordered table-striped table-hover table-condensed" id="my_course_ue485383" style="width: 100%;">
+    <thead class="text-uppercase bg-blue-700">
+    <tr class="border-double">
+        <th width="10px">S/N</th>
+        <th width="10px"><i class="icon-eye"></i></th>
+        <th> Course</th>
+        <th width="60px" class="text-nowrap"> Min. UE</th>
+        <th width="120px"> Semester</th>
+    </tr>
+    </thead>
+    <tbody id="my_course_ue_body485383"></tbody>
+</table>
+
+<script>
+    $('body').addClass("sidebar-xs");
+
+
+
+    $(document).ready(function () {
+        // Select with search
+        $('.select-search').select2();
+        $('body').on('change keyup','.select',function () {
+            $(".select2-selection__rendered").prop("style",'padding-left: 20px;');
+        });
+
+        var groupColumn = 4;
+        var GridDT485383 = $('#my_course_ue485383').DataTable({
+            stateSave: false,
+            pageLength: -1,
+            lengthMenu: [[-1,10, 25, 50,100,1000, -1], ["All",10, 25, 50,100,1000,"All"]],
+
+            columnDefs: [
+                {"searchable": false, "orderable": false, "targets": 0} ,
+                {"searchable": false, "orderable": false, "targets": 1, 'className':'details-control','data': null,'defaultContent': '<i class=\'icon-plus-circle2 text-success\' style=\'cursor: pointer;\'></i>'} ,
+                {"visible": false, "targets": groupColumn } ,
+            ],
+            select: {
+                style:    'os',
+                selector: 'td:first-child'
+            },
+
+            "order": [[ groupColumn, 'asc' ]],
+            /*select: {
+                style:    'os',
+                selector: 'td:first-child'
+            }*/
+            "displayLength": 25,
+            "drawCallback": function ( settings ) {
+                var api = this.api();
+                var rows = api.rows( {page:'current'} ).nodes();
+                var last=null;
+
+                api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
+                    if ( last !== group ) {
+                        $(rows).eq( i ).before(
+                            '<tr class="group"><td colspan="6">'+group+'</td></tr>'
+                        );
+
+                        last = group;
+                    }
+                } );
+            }
+        });
+
+        //indexing first column
+        GridDT485383.on( 'order.dt search.dt', function () {
+            GridDT485383.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+                cell.innerHTML = i+1;
+            } );
+        } ).draw();
+
+
+        // Add placeholder to the datatable filter option
+        $('.dataTables_filter input[type=search]').attr('placeholder','Type to Filter...');
+
+        // Enable Select2 select for the length option
+        $('.dataTables_length select').select2({
+            minimumResultsForSearch: Infinity,
+            width: 'auto'
+        });
+
+        // Order by the grouping
+        $('#my_course_ue485383 tbody').on( 'click', 'tr.group', function () {
+            var currentOrder = GridDT485383.order()[0];
+            if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
+                GridDT485383.order( [ groupColumn, 'desc' ] ).draw();
+            }
+            else {
+                GridDT485383.order( [ groupColumn, 'asc' ] ).draw();
+            }
+        } );
+
+        DataLoader(GridDT485383,25528,32);
+
+
+
+
+        $('#my_course_ue485383 tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = GridDT485383.row( tr );
+
+
+
+            if ( row.child.isShown() ) {
+                row.child.hide();
+                tr.removeClass('border-double');
+                tr.removeClass('shown');
+
+                $(this).html("<i class='icon-plus-circle2 text-success' style='cursor: pointer;'></i>");
+            }
+            else {
+                tr.addClass('border-double');
+                $(this).html("<i class='icon-minus-circle2 text-danger' style='cursor: pointer;'></i>");
+                // row.child( format(row.data()) ).show();
+                row.child( RowChildLoader(row.data()) ).show();
+                tr.addClass('shown');
+            }
+        } );
+
+    });
+</script>
+
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+                            <?/*= Alert::widget(); */?>
+                            
+                        </div>
+                        <!--</div>-->
+                        <!-- /content area -->
+
+                    </div>
+                    <!-- /main content -->
+
+
+                </div>
+                <!-- /page content -->
+
+            </div>
+            <!-- /page container -->
+        </div>
+
+        <!--Footer-->
+                    <script type="text/javascript" src="./common/tools/qrPlugins/qrcode.js"></script>
+    <style>
+        .summary-list {
+            list-style: none;
+        }
+
+        .summary-list li {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <!-- Footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <ul class="nav navbar-nav no-border visible-xs-block">
+            <li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second"><i
+                            class="icon-circle-up2"></i></a></li>
+        </ul>
+
+        <div class="navbar-collapse collapse" id="navbar-second">
+            <div class="navbar-text">
+                &copy; 2022. ARIS 3.0 Powered by <a href="https://www.ucc.co.tz"
+                                                                                            target="_blank">UCC</a>
+            </div>
+
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="https://www.privacypolicies.com/agreement/view/d1b14780926dbe72fcb612adb134e753"
+                           target="_blank">Policy</a></li>
+                    <li><a href="#" class="text-semibold">Upgrade your account</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-cog3"></i>
+                            <span class="visible-xs-inline-block position-right">Settings</span>
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="icon-dribbble3"></i> Dribbble</a></li>
+                            <li><a href="#"><i class="icon-pinterest2"></i> Pinterest</a></li>
+                            <li><a href="#"><i class="icon-github"></i> Github</a></li>
+                            <li><a href="#"><i class="icon-stackoverflow"></i> Stack Overflow</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+            /*$(".alert").fadeTo(5000, 500).slideUp(500, function(){
+             $(".alert").alert('close');
+             });*/
+
+            $(".alert").fadeTo(15000, 500).fadeOut(15000, function () {
+                $(".alert").alert('close');
+            });
+
+            function RenewBill(item) {
+                var id = $(item).attr('bill_id');
+                swal({
+                        title: "Renewing a Bill!",
+                        text: "Why do you want to renew this bill?",
+                        type: "input",
+                        showCancelButton: true,
+                        confirmButtonColor: "#2196F3",
+                        closeOnConfirm: false,
+                        animation: "slide-from-top",
+                        inputPlaceholder: "Reasons for Renewing this bill"
+                    },
+                    function (inputValue) {
+                        if (inputValue === false) return false;
+                        if (inputValue === "") {
+                            swal.showInputError("You need to provide reasons for Renewing this Bill");
+                            return false
+                        }
+                        $.ajax({
+                            url: "https://aris3.udsm.ac.tz//staff/index.php?r=finance/student-bill/renew",
+                            cache: false,
+                            type: "POST",
+                            data: {
+                                id: id,
+                                reasons: inputValue,
+                            },
+                            error: function (error) {
+                                swal({
+                                    title: "ERROR!",
+                                    text: error.responseText,
+                                    type: "error",
+                                    confirmButtonColor: "#2196F3"
+                                });
+                            },
+                            success: function (data) {
+                                var output = $.parseJSON(data);
+                                var code = '';
+                                var message = '';
+                                $.each(output, function (index, value) {
+                                    code = value.code;
+                                    message = value.message;
+                                });
+
+                                swal({
+                                    title: code.toUpperCase() + "!",
+                                    text: message,
+                                    type: code,
+                                    confirmButtonColor: "#2196F3"
+                                }, function (inputOption) {
+                                    if (inputOption === false) return false;
+                                    if (inputOption === "") {
+                                        return false
+                                    } else {
+                                        window.location.reload();
+                                    }
+                                });
+
+                            }
+
+
+                        });
+
+                    });
+            }
+
+            function CancelBill(item) {
+                var id = $(item).attr('bill_id');
+                swal({
+                        title: "Cancelling a Bill!",
+                        text: "Why do you want to Cancel this bill?",
+                        type: "input",
+                        showCancelButton: true,
+                        confirmButtonColor: "#2196F3",
+                        closeOnConfirm: false,
+                        animation: "slide-from-top",
+                        inputPlaceholder: "Reasons for Cancelling this bill"
+                    },
+                    function (inputValue) {
+                        if (inputValue === false) return false;
+                        if (inputValue === "") {
+                            swal.showInputError("You need to provide reasons for Cancelling this Bill");
+                            return false
+                        }
+                        $.ajax({
+                            url: "https://aris3.udsm.ac.tz//staff/index.php?r=finance/gepg-bill-cancellation/cancel-bill",
+                            cache: false,
+                            type: "POST",
+                            data: {
+                                id: id,
+                                reasons: inputValue,
+                            },
+                            error: function (error) {
+                                swal({
+                                    title: "ERROR!",
+                                    text: error.responseText,
+                                    type: "error",
+                                    confirmButtonColor: "#2196F3"
+                                });
+                            },
+                            success: function (data) {
+                                var output = $.parseJSON(data);
+                                var code = '';
+                                var message = '';
+                                $.each(output, function (index, value) {
+                                    code = value.code;
+                                    message = value.message;
+                                });
+
+                                swal({
+                                    title: code.toUpperCase() + "!",
+                                    text: message,
+                                    type: code,
+                                    confirmButtonColor: "#2196F3"
+                                }, function (inputOption) {
+                                    if (inputOption === false) return false;
+                                    if (inputOption === "") {
+                                        return false
+                                    } else {
+                                        window.location.reload();
+                                    }
+                                });
+
+                            }
+
+
+                        });
+
+                    });
+            }
+
+            function PrintOut(item) {
+                var id = $(item).attr('pk');
+                var option = $(item).attr('option');
+                var destination = $(item).attr('destination');
+                var bank_id = $(item).attr('bank_id');
+                var myUrl = "https://aris3.udsm.ac.tz//staff/index.php?r=finance/student-bill/print-out";
+                $.ajax({
+                    url: myUrl,
+                    type: "POST",
+                    cache: false,
+                    data: {
+                        csrf: "C-M9q7evQifTTdfR1oSib2KHL4yklWcnoLoUpAL1_jFTlnTs9METYKId44PnqZtWEOJpoZfyMHD20WLgcqeoZw==",
+                        id: id,
+                        option: option,
+                        destination: destination,
+                        bank: bank_id
+                    },
+
+                    beforeSend: function () {
+
+                    },
+
+                    error: function (error) {
+                        swal({
+                            title: "ERROR!",
+                            text: error.responseText,
+                            type: "error",
+                            confirmButtonColor: "#2196F3"
+                        });
+                    },
+
+                    success: function (data) {
+                        var output = $.parseJSON(data);
+                        var code = '';
+                        var message = '';
+                        var fileLink = '';
+                        $.each(output, function (index, value) {
+                            code = value.code;
+                            message = value.message;
+                            fileLink = value.file_url;
+                        });
+
+                        var link = document.createElement('a');
+                        link.href = fileLink;
+                        link.download = 'printout_' + id + '.pdf';
+                        link.click();
+                        swal({
+                            title: (code + "!").toUpperCase(),
+                            text: message,
+                            type: code,
+                            confirmButtonColor: "#2196F3"
+                        });
+
+                    },
+
+                    complete: function () {
+
+                    }
+
+                });
+
+
+            }
+
+            function LoadBill(item) {
+
+                var bill_id = $(item).attr('bill_id');
+                $.ajax({
+                    url: "/index.php?r=finance%2Fstudent-bill%2Fdata-table",
+                    type: "POST",
+                    cache: false,
+                    data: {
+                        csrf: "C-M9q7evQifTTdfR1oSib2KHL4yklWcnoLoUpAL1_jFTlnTs9METYKId44PnqZtWEOJpoZfyMHD20WLgcqeoZw==",
+                        bill_id: bill_id,
+                    },
+
+                    beforeSend: function () {
+                        $("#receipt_breakdown").html("");
+                    },
+
+                    error: function (error) {
+                        swal({
+                            title: "ERROR!",
+                            text: error.responseText,
+                            type: "error",
+                            confirmButtonColor: "#2196F3"
+                        });
+                    },
+
+                    success: function (data) {
+                        var output = $.parseJSON(data);
+                        var bill_amount = 0;
+                        var counter = 0;
+                        var itemAmount = 0;
+                        var currency = "";
+                        $.each(output, function (index, value) {
+                            counter++;
+                            //console.log($(item).attr('bill_id'));
+                            var studentName = value.registration_number + ' | ' + value.surname + ',' + value.first_name + ' ' + value.middle_name;
+
+                            var control_number = value.control_number;
+                            var bill_number = value.bill_number;
+                            var billed_item = value.item_cost_name;
+                            currency = value.billed_currency;
+                            itemAmount = (value.item_bill_amount * 1);
+                            bill_amount += itemAmount;
+
+                            var bill_date = value.date_billed;
+                            var reg_no = value.registration_number;
+
+                            $("#receipt_panel_title").html(bill_number);
+                            $("#receipt_qr_text").val(bill_number);
+
+                            $("#receipt_bill_number").html(bill_number);
+                            $("#receipt_academic_year").html(value.academic_year);
+                            $("#receipt_status_remarks").html(value.status_remarks);
+                            $("#receipt_student_yos").html(ordinalSuffix(value.year_of_study) + ' year');
+                            $("#receipt_student_programme").html(value.programme_name);
+                            $("#receipt_payment_option").html(value.payment_option);
+                            $("#receipt_bill_source").html(value.bill_type);
+                            $("#receipt_control_number").html(control_number);
+                            $("#receipt_bill_date").html(bill_date);
+                            $("#receipt_expiry_date").html(value.expiry_date + "( " + spanDuration("2022-03-28 10:53:55", value.control_number_expiry_date) + ")");
+
+                            $("#receipt_bill_currency").html(currency);
+
+                            $("#receipt_bill_amount").html(addCommas(bill_amount.toFixed(2)));
+                            $("#receipt_registration_number").html(value.registration_number);
+                            $("#receipt_student_name").html(studentName);
+
+                            $("#receipt_breakdown").append(
+                                "<tr>" +
+                                "<td>" + counter + ".</td>" +
+                                "<td>" + billed_item + "</td>" +
+                                "<th class='text-bold text-right'>" + addCommas(itemAmount.toFixed(2)) + "</th>" +
+                                "</tr>"
+                            );
+
+                        });
+
+                        $("#receipt_breakdown").append(
+                            "<tr class='border-double text-bold text-uppercase'>" +
+                            "<td colspan='2' class='text-center text-bold'>Total</td>" +
+                            "<th class='text-bold text-right text-size-large'><sup class='text-bold text-muted'>" + currency + "</sup>" + addCommas(bill_amount.toFixed(2)) + "</th>" +
+                            "</tr>"
+                        );
+
+                    },
+
+                    complete: function () {
+                        $("#receipt_qrcode").html("");
+                        makeCode($("#receipt_bill_number").html());
+                    }
+
+                });
+
+
+            }
+
+            function makeCode(string) {
+                var qrcode = new QRCode(document.getElementById("receipt_qrcode"), {
+                    width: 100,
+                    height: 100
+                });
+                qrcode.makeCode(string);
+            }
+
+            function ordinalSuffix(i) {
+                var j = i % 10,
+                    k = i % 100;
+                if (j == 1 && k != 11) {
+                    return i + "st";
+                }
+                if (j == 2 && k != 12) {
+                    return i + "nd";
+                }
+                if (j == 3 && k != 13) {
+                    return i + "rd";
+                }
+                return i + "th";
+            }
+
+            function ordinalSuffixFancy(i) {
+                var j = i % 10,
+                    k = i % 100;
+                if (j == 1 && k != 11) {
+                    return i + "<sup>st</sup>";
+                }
+                if (j == 2 && k != 12) {
+                    return i + "<sup>nd</sup>";
+                }
+                if (j == 3 && k != 13) {
+                    return i + "<sup>rd</sup>";
+                }
+                return i + "<sup>th</sup>";
+            }
+
+            function addCommas(nStr) {
+                nStr += '';
+                x = nStr.split('.');
+                x1 = x[0];
+                x2 = x.length > 1 ? '.' + x[1] : '';
+                var rgx = /(\d+)(\d{3})/;
+                while (rgx.test(x1)) {
+                    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+                }
+                return x1 + x2;
+            }
+
+            function DigitalNumber(number, cssClass = null) {
+
+                var digital = '';
+                var zero = '<span class="icon-seven-segment-0 ' + cssClass + '"></span>';
+                var one = '<span class="icon-seven-segment-1 ' + cssClass + '"></span>';
+                var two = '<span class="icon-seven-segment-2 ' + cssClass + '"></span>';
+                var three = '<span class="icon-seven-segment-3 ' + cssClass + '"></span>';
+                var four = '<span class="icon-seven-segment-4 ' + cssClass + '"></span>';
+                var five = '<span class="icon-seven-segment-5 ' + cssClass + '"></span>';
+                var six = '<span class="icon-seven-segment-6 ' + cssClass + '"></span>';
+                var seven = '<span class="icon-seven-segment-7 ' + cssClass + '"></span>';
+                var eigth = '<span class="icon-seven-segment-8 ' + cssClass + '"></span>';
+                var nine = '<span class="icon-seven-segment-9 ' + cssClass + '"></span>';
+                var numberLine = [];
+                numberLine.push(zero);
+                numberLine.push(one);
+                numberLine.push(two);
+                numberLine.push(three);
+                numberLine.push(four);
+                numberLine.push(five);
+                numberLine.push(six);
+                numberLine.push(seven);
+                numberLine.push(eigth);
+                numberLine.push(nine);
+
+                var numberArray = number.toString();
+                for (var i = 0; i < numberArray.length; i++) {
+                    //console.log(i);
+                    digital += numberLine[numberArray[i]];
+                }
+
+                return digital;
+            }
+
+            function RadioChecker(item) {
+                if ($("input:radio[name='activation']").is(":checked")) {
+                    $("#is_active").val(item);
+                }
+            }
+
+            function BooleanChecker(item) {
+                if ($("input:radio[name='boolean']").is(":checked")) {
+                    $("#boolean_input").val(item);
+                }
+            }
+
+            function FlexibleChecker(item, name, destination) {
+                if ($("input:radio[name='" + name + "']").is(":checked")) {
+                    $("#" + destination).val(item);
+                }
+            }
+
+            function DateAdd(startDate, span, interval) {
+                var endDate = new Date(startDate);
+                switch (interval) {
+                    case 'day':
+                        endDate.setDate(endDate.getDate() + parseInt(span));
+                        break;
+                    case 'month':
+                        endDate.setMonth(endDate.getMonth() + parseInt(span));
+                        break;
+                    case 'year':
+                        endDate.setFullYear(endDate.getFullYear() + parseInt(span));
+                        break;
+                }
+                var dateFormatted = endDate.toISOString().substr(0, 10);
+                return dateFormatted;
+            }
+
+            function spanDuration(startDate, endDate) {
+                var hours = Span(startDate, endDate, 'h');
+                var days = Span(startDate, endDate, 'd');
+                var months = Span(startDate, endDate, 'm');
+                var years = Span(startDate, endDate, 'y');
+                var Duration = '';
+
+
+                if (hours < 24 && days < 1) {
+                    Duration = hours + ' hours';
+                } else {
+                    if (days < 28 && months < 1) {
+                        Duration = days + ' days';
+                    } else {
+                        if (months < 12 && years < 1) {
+                            Duration = months + ' months';
+                        } else {
+                            if (years >= 1) {
+                                Duration = years + ' years';
+                            }
+                        }
+                    }
+                }
+
+                if (startDate > endDate) {
+                    //Duration += ' ago';
+                    Duration += ' to come';
+
+                } else {
+                    //Duration += ' to come';
+                    Duration += ' ago';
+                }
+
+                return Duration;
+            }
+
+            function Span(startDate, endDate, interval) {
+                var output = 0;
+                var date1 = new Date(startDate);
+                var date2 = new Date(endDate);
+
+                var year1 = date1.getFullYear();
+                var year2 = date2.getFullYear();
+
+                var month1 = date1.getMonth();
+                var month2 = date2.getMonth();
+                var diff = Date.parse(endDate) - Date.parse(startDate);
+                switch (interval) {
+                    case 'y':
+                        output = (year2 - year1);
+                        break;
+                    case 'm':
+                        output = (Span(startDate, endDate, 'y') * 12) + (month2 - month1);
+                        break;
+                    case 'd':
+                        output = Math.floor(diff / 86400000);
+                        break;
+                    case 'h':
+                        output = Math.floor(diff / 3600000);
+                        break;
+                    case 'i':
+                        output = Math.floor(diff / 60000);
+                        break;
+                    case 's':
+                        output = Math.floor(diff / 1000);
+                        break;
+                }
+
+
+                return output;
+            }
+                        $(document).ready(function () {
+
+
+                // Basic initialization
+                /*  $('.multiselect').multiselect({
+                 onChange: function () {
+                 $.uniform.update();
+                 }
+                 });*/
+
+                /* var switches = Array.prototype.slice.call(document.querySelectorAll('.switch'));
+                 switches.forEach(function(html) {
+                     var switchery = new Switchery(html, {color: '#4CAF50'});
+                 });*/
+                $('table thead a').addClass('text-white text-uppercase');
+                $('table thead select').attr('class', 'select');
+                //$('.panel panel-flat').addClass('table-responsive');
+                //$('.select2').select2();
+                $('.select').select2();
+
+
+                // Single picker
+
+                $('.date').daterangepicker({
+                    singleDatePicker: true,
+                    locale: {
+                        format: 'YYYY-MM-DD',
+                        //dddd - Friday
+                        //dd - Fri
+                    }
+                });
+
+                // Dropdown selectors
+                $('.date2').pickadate({
+                    today: '',
+                    close: '',
+                    clear: 'Clear selection',
+
+                    // formatSubmit: 'YYYY-MM-DD',
+                    labelMonthNext: 'Go to the next month',
+                    labelMonthPrev: 'Go to the previous month',
+                    labelMonthSelect: 'Pick a month from the dropdown',
+                    labelYearSelect: 'Pick a year from the dropdown',
+                    selectMonths: true,
+                    selectYears: true
+                });
+
+
+                // Time picker
+                $(".time").AnyTime_picker({
+                    format: "%H:%i"
+                });
+
+
+                // Time picker
+                $(".DateTime").AnyTime_picker({
+                    format: "%Z-%m-%d %H:%i:%s"
+                });
+
+                // Basic initialization
+                $('.multi-select-full').multiselect({
+                    includeSelectAllOption: true,
+                    enableFiltering: true,
+                    buttonClass: 'form-control',
+                    buttonWidth: '100%',
+                    templates: {
+                        //ul: '<ul class="multiselect-container bg-teal-400 dropdown-menu"></ul>',
+                        filter: '<li class="multiselect-item multiselect-filter"><i class="icon-search4" style="z-index: 1000; margin-bottom: -5px"></i> <input class="form-control" type="text"></li>'
+                    },
+                    onChange: function () {
+                        $.uniform.update();
+                    },
+                    onSelectAll: function () {
+                        $.uniform.update();
+                    }
+                });
+
+
+                // Related plugins
+                // ------------------------------
+
+                // Styled checkboxes and radios
+                // $(".styled, .multiselect-container input").uniform({radioClass: 'choice'});
+
+
+                // Accessibility labels
+                $('.pickadate-accessibility').pickadate({
+                    labelMonthNext: 'Go to the next month',
+                    labelMonthPrev: 'Go to the previous month',
+                    labelMonthSelect: 'Pick a month from the dropdown',
+                    labelYearSelect: 'Pick a year from the dropdown',
+                    selectMonths: true,
+                    selectYears: true
+                });
+
+// Checkboxes/radios (Uniform)
+                // ------------------------------
+
+                // Default initialization
+                $(".styled, .multiselect-container input").uniform({
+                    radioClass: 'choice'
+                });
+
+                // File input
+                $(".file-styled").uniform({
+                    wrapperClass: 'bg-blue',
+                    fileButtonHtml: '<i class="icon-file-plus"></i>'
+                });
+                // Custom color
+                $('[data-popup=popover-custom]').popover({
+                    template: '<div class="popover border-primary"><div class="arrow"></div><h3 class="popover-title bg-primary-400"></h3><div class="popover-content"></div></div>'
+                });
+
+                // Custom solid color
+                $('[data-popup=popover-solid]').popover({
+                    template: '<div class="popover bg-primary"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content text-danger"></div></div>'
+                });
+                //
+                // Contextual colors
+                //
+                // default
+                $(".control-default").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-slate-600 text-slate-800'
+                });
+
+                // Primary
+                $(".control-primary").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-primary-600 text-primary-800'
+                });
+
+                // Danger
+                $(".control-danger").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-danger-600 text-danger-800'
+                });
+
+                // Success
+                $(".control-success").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-success-600 text-success-800'
+                });
+
+                // Warning
+                $(".control-warning").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-warning-600 text-warning-800'
+                });
+                // Warning
+                $(".control-orange").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-orange-600 text-orange-800'
+                });
+
+                // Info
+                $(".control-info").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-info-600 text-info-800'
+                });
+
+                // Custom color
+                $(".control-custom").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-indigo-600 text-indigo-800'
+                });
+
+                // White color
+                $(".control-white").uniform({
+                    radioClass: 'choice',
+                    wrapperClass: 'border-white text-white'
+                });
+
+
+            });
+
+                    </script>
+    </div>
+
+    <script>
+        function removeTopTableBorder() {
+            let table = document.getElementsByClassName('no-border-top')[0];
+            if (table != null || table != undefined) {
+                let tbody = table.getElementsByTagName('tbody')[0];
+                let firstRow = tbody.getElementsByTagName('tr')[0];
+                firstRow.getElementsByTagName('th')[0].style.borderTop = 'none';
+                firstRow.getElementsByTagName('td')[0].style.borderTop = 'none';
+            }
+        }
+
+        function handleTableResponsiveness() {
+            $('table').parent().addClass('table-responsive');
+        }
+
+        function confirmBeforeSubmit(formId, message) {
+            $('#' + formId).submit((event) => {
+                event.preventDefault();
+                swal({
+                    type: 'warning',
+                    title: 'Warning',
+                    text: message,
+                    confirmButtonText: 'Proceed',
+                    confirmButtonColor: 'teal',
+                    showCancelButton: true
+                }, (confirmed) => {
+                    if (!confirmed) {
+                        return;
+                    }
+                    $('#' + formId).unbind('submit').submit();
+                });
+            });
+        }
+
+        function collapseSideBar() {
+            const body = $('body');
+            if (!body.hasClass('sidebar-xs')) {
+                body.addClass('sidebar-xs');
+            }
+        }
+
+        function collapseSideBarForSomePages() {
+            const controllersList = [
+                'student-thesis-dissert',
+                'my-thesis-dissert',
+                'institution-process',
+                'thesis-dissert-stage-assessment',
+                'institution-process-actor',
+                'thesis-dissert-supervisor',
+                'thesis-dissert-panel',
+                'thesis-dissert-presentation',
+                'extension-of-study',
+                'my-profile'
+            ];
+            const currentController = `my-u-e`;
+            if (controllersList.includes(currentController)) {
+                collapseSideBar();
+            }
+        }
+
+        function animate(itemId, animationClass, time = 70) {
+            setTimeout(function () {
+                $('#' + itemId).addClass("animated " + animationClass).one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function () {
+                    $(this).removeClass("animated " + animationClass);
+                });
+            }, time);
+        }
+
+        $(document).ready(() => {
+            removeTopTableBorder();
+            handleTableResponsiveness();
+            collapseSideBarForSomePages();
+        });
+    </script>
+
+
+
+<style>
+    .actor-option {
+        text-transform: none;
+        font-size: 90%;
+        cursor: pointer;
+        color: #9E9E9E
+    }
+
+    .actor-option-selected {
+        color: green;
+        border: 1px solid green;
+    }
+</style>
+
+<script>
+
+    function loadComments(remarkId, tableName, userId, studentId, processId) {
+        const commentsAreaId = `modalComments_${remarkId}_contents`;
+        const commentsArea = document.getElementById(commentsAreaId);
+        commentsArea.innerHTML = null;
+        commentsArea.style.padding = '12px';
+        const br = document.createElement('br');
+        const targetRemark = document.createElement('p');
+        targetRemark.innerHTML = 'Loading remarks...';
+        commentsArea.append(targetRemark);
+
+        const header = document.createElement('h6');
+        header.innerHTML = 'Comments from different Users';
+        header.classList.add('text-muted');
+        commentsArea.append(header);
+        const ul = document.createElement('ul');
+        ul.id = 'commentsList_' + remarkId;
+        ul.classList.add('summary-list');
+        ul.style.overflowY = 'scroll';
+
+        const loader = document.createElement('p');
+        loader.classList.add('text-center', 'text-teal');
+        loader.innerHTML = 'Loading...';
+
+        $.ajax({
+            url: `/index.php?r=student%2Fmy-u-e%2Fload-remark-comments`,
+            type: 'POST',
+            data: {
+                table_name: tableName,
+                remark_id: remarkId
+            },
+            beforeSend: () => {
+                commentsArea.append(loader);
+            },
+            success: (response) => {
+                commentsArea.removeChild(loader);
+                const responseBundle = JSON.parse(response);
+                if (responseBundle.type == 1) {
+                    const {comments, remark} = responseBundle;
+                    if (remark != undefined) {
+                        targetRemark.innerHTML = remark;
+                    }
+                    if (comments.length > 0) {
+                        ul.style.height = (window.innerHeight * 0.4) + 'px';
+                        for (const commentBundle of comments) {
+                            const {comment, user} = commentBundle;
+                            const li = document.createElement('li');
+                            li.id = 'remark_comment_li_' + comment.id;
+                            const img = document.createElement('img');
+                            img.src = user['profileImage'];
+                            img.classList.add('img', 'img-circle', 'remark-user-photo');
+                            img.style.height = '30px';
+                            img.style.width = '30px';
+                            li.append(img);
+                            const label = document.createElement('label');
+                            label.style.paddingLeft = '10px';
+                            label.innerHTML = ` ${user['fullName']} @ ${user['actorName']}`;
+                            label.classList.add('text-teal');
+                            label.style.display = 'inline-block';
+
+                            li.append(label);
+                            const pComments = document.createElement('p');
+                            pComments.id = 'remark_comments_' + comment.id;
+                            pComments.style.paddingLeft = '30px';
+                            pComments.innerHTML = comment.comments;
+                            li.append(pComments);
+
+                            const dateAndTime = document.createElement('small');
+                            dateAndTime.style.paddingLeft = '30px';
+                            dateAndTime.classList.add('text-muted');
+                            const iHistory = document.createElement('i');
+                            iHistory.classList.add('icon-history');
+                            dateAndTime.append(iHistory);
+                            dateAndTime.innerHTML = dateAndTime.innerHTML + `&nbsp;${comment['displayDate']}`;
+                            li.append(dateAndTime);
+
+                            li.innerHTML = li.innerHTML + '<br>';
+                            li.innerHTML = li.innerHTML + '<br>';
+
+                            const commentTrash = document.createElement('a');
+                            const iCommentTrash = document.createElement('i');
+                            iCommentTrash.classList.add('icon-trash-alt');
+                            commentTrash.append(iCommentTrash);
+                            commentTrash.classList.add('text-muted', 'text-small');
+                            commentTrash.innerHTML = commentTrash.innerHTML + ' Delete';
+                            //li.append(commentTrash);
+
+
+                            const space = document.createElement('span');
+                            space.innerHTML = '&nbsp;';
+                            li.append(space);
+                            li.append(space);
+                            li.append(space);
+
+                            const commentEdit = document.createElement('a');
+                            const iCommentEdit = document.createElement('i');
+                            iCommentEdit.classList.add('icon-pencil');
+                            commentEdit.append(iCommentEdit);
+                            commentEdit.classList.add('text-muted', 'text-small');
+                            commentEdit.innerHTML = commentEdit.innerHTML + 'Edit';
+                            //li.append(commentEdit);
+
+                            ul.append(li);
+
+                            if (comment.user_id == parseInt(`8499`)) {
+                                commentEdit.onclick = () => {
+                                    updateComments(comment);
+                                }
+                                commentTrash.onclick = () => {
+                                    deleteComments(comment.id, comment.remark_id);
+                                }
+                                commentTrash.onmouseover = () => {
+                                    commentTrash.classList.add('text-warning');
+                                }
+                                commentTrash.onmouseout = () => {
+                                    commentTrash.classList.remove('text-warning');
+                                }
+                            } else {
+                                clearEvents(commentEdit);
+                                clearEvents(commentTrash);
+                            }
+
+                        }
+                        ul.scrollTop = ul.scrollHeight;
+                    } else {
+                        const li = document.createElement('li');
+                        li.classList.add('no-comments');
+                        const iTrash = document.createElement('i');
+                        iTrash.classList.add('icon-trash');
+                        li.append(iTrash);
+                        li.innerHTML += ' No comments were found...';
+                        li.classList.add('text-muted', 'text-center');
+                        li.style.border = 'none';
+                        ul.append(li);
+                    }
+
+                    const lastLi = ul.lastChild;
+                    if (lastLi != undefined) {
+                        lastLi.style.border = 'none';
+                    }
+                }
+            },
+            error: (error) => {
+                commentsArea.removeChild(loader);
+            }
+        });
+
+
+        commentsArea.append(ul);
+
+        const commentsBox = document.createElement('textarea');
+        commentsBox.classList.add('form-control');
+        commentsBox.rows = '5';
+        commentsBox.id = 'commentsBox_' + remarkId;
+        commentsBox.placeholder = 'Please enter your comments here...';
+        commentsBox.style.padding = '8px';
+        commentsArea.append(commentsBox);
+
+
+        commentsArea.append(br);
+
+        const pTargetActors = document.createElement('p');
+        pTargetActors.classList.add('text-teal');
+        pTargetActors.innerHTML = 'Who should view your comments?<br>';
+        //commentsArea.append(pTargetActors);
+
+        const labelAllActors = document.createElement('label');
+        labelAllActors.classList.add('label', 'label-striped', 'label-rounded', 'actor-option');
+        labelAllActors.innerHTML = 'Everyone';
+        labelAllActors.onclick = () => {
+            selectActor(labelAllActors);
+        }
+        //commentsArea.append(labelAllActors);
+
+        const br2 = document.createElement('br');
+        commentsArea.append(br2);
+        //TODO: complete logic
+
+        const btnCancel = createButton('warning', 'icon-exit', 'Cancel');
+        btnCancel.setAttribute('data-dismiss', 'modal');
+        btnCancel.onclick = () => {
+            //window.location.reload();
+        }
+        commentsArea.append(btnCancel);
+
+        const btnReload = createButton('warning', 'icon-reload-alt', 'Cancel & Reload');
+        btnReload.setAttribute('data-dismiss', 'modal');
+        btnReload.onclick = () => {
+            window.location.reload();
+        }
+        commentsArea.append(btnReload);
+
+        const space = document.createElement('span');
+        space.innerHTML = '&nbsp';
+        commentsArea.append(space);
+
+        const btnSubmit = createButton('info', 'icon-forward', 'Send');
+        btnSubmit.classList.add('text-teal');
+        btnSubmit.onclick = () => {
+            submitComments(remarkId, tableName, userId, studentId, processId, $('#commentsBox_' + remarkId).val());
+        }
+        commentsArea.append(btnSubmit);
+
+        $(document).ready(() => {
+            ul.scrollTop = ul.scrollHeight;
+        });
+    }
+
+    function submitComments(remarkId, tableName, userId, studentId, processId, comments) {
+        if (comments.trim() == '') {
+            return;
+        }
+        const commentsList = document.getElementById('commentsList_' + remarkId);
+        const lastLi = commentsList.lastChild;
+        if (lastLi != undefined) {
+            lastLi.style.borderBottom = '1px solid #ddd';
+        }
+        const li = document.createElement('li');
+        const loader = document.createElement('small');
+        $.ajax({
+            url: `/index.php?r=student%2Fmy-u-e%2Fcreate-remark-comment`,
+            type: 'POST',
+            data: {
+                remark_id: remarkId,
+                comments,
+                table_name: tableName,
+                student_id: studentId,
+                process_id: processId
+            },
+            beforeSend: () => {
+                li.style.border = 'none';
+                commentsList.append(li);
+                loader.classList.add('text-teal');
+                loader.id = 'loader_' + remarkId;
+                loader.innerHTML = 'Submitting your comments...';
+                li.append(loader);
+                animate(loader.id, 'flash', 300);
+                commentsList.scrollTop = commentsList.scrollHeight;
+                $('#commentsBox_' + remarkId).val('');
+            },
+            success: (response) => {
+                li.removeChild(loader);
+                const responseBundle = JSON.parse(response);
+                const {user, comment} = responseBundle.payload;
+                if (responseBundle.type == 1) {
+                    li.id = 'remark_comment_li_' + comment.comment.id;
+                    $('.no-comments').hide();
+                    const img = document.createElement('img');
+                    img.src = user['profileImage'];
+                    img.classList.add('img', 'img-circle', 'remark-user-photo');
+                    img.style.height = '30px';
+                    img.style.width = '30px';
+                    li.append(img);
+                    const label = document.createElement('label');
+                    label.style.paddingLeft = '10px';
+                    label.innerHTML = ` ${user['fullName']} @ ${user['actorName']}`;
+                    label.classList.add('text-teal');
+                    li.append(label);
+                    const newComments = document.createElement('p');
+                    newComments.id = 'remark_comments_' + comment.comment.id;
+                    newComments.style.paddingLeft = '30px';
+                    newComments.innerHTML = comment.comment.comments;
+                    li.append(newComments);
+                    const dateAndTime = document.createElement('small');
+                    dateAndTime.style.paddingLeft = '30px';
+                    dateAndTime.classList.add('text-muted');
+                    const iHistory = document.createElement('i');
+                    iHistory.classList.add('icon-history');
+                    dateAndTime.append(iHistory);
+                    dateAndTime.innerHTML = dateAndTime.innerHTML + `&nbsp;${comment.displayDate}`;
+                    li.append(dateAndTime);
+                    li.innerHTML = li.innerHTML + '<br>';
+                    li.innerHTML = li.innerHTML + '<br>';
+
+                    const commentTrash = document.createElement('a');
+                    const iCommentTrash = document.createElement('i');
+                    iCommentTrash.classList.add('icon-trash-alt');
+                    commentTrash.append(iCommentTrash);
+                    commentTrash.classList.add('text-muted', 'text-small');
+                    commentTrash.innerHTML = commentTrash.innerHTML + 'Delete';
+                    //li.append(commentTrash);
+
+                    const space = document.createElement('span');
+                    space.innerHTML = '&nbsp;';
+                    li.append(space);
+                    li.append(space);
+                    li.append(space);
+
+                    const commentEdit = document.createElement('a');
+                    const iCommentEdit = document.createElement('i');
+                    iCommentEdit.classList.add('icon-pencil');
+                    commentEdit.append(iCommentEdit);
+                    commentEdit.classList.add('text-muted', 'text-small');
+                    commentEdit.innerHTML = commentEdit.innerHTML + 'Edit';
+                    //li.append(commentEdit);
+
+
+                    if (comment.comment.user_id == parseInt(`8499`)) {
+                        commentEdit.onclick = () => {
+                            updateComments(comment.comment);
+                        }
+                        commentTrash.onclick = () => {
+                            deleteComments(comment.comment.id, comment.comment.remark_id);
+                        }
+                        commentTrash.onmouseover = () => {
+                            commentTrash.classList.add('text-warning');
+                        }
+                        commentTrash.onmouseout = () => {
+                            commentTrash.classList.remove('text-warning');
+                        }
+                    } else {
+                        clearEvents(commentEdit);
+                        clearEvents(commentTrash);
+                    }
+
+                    $('#commentsBox_' + remarkId).focus();
+                    commentsList.scrollTop = commentsList.scrollHeight;
+
+                } else {
+                    li.removeChild(loader);
+                    li.innerHTML = responseBundle.message;
+                    li.classList.add('text-danger');
+                    commentsList.append(li);
+                    commentsList.scrollTop = commentsList.scrollHeight;
+                }
+            }
+        });
+
+    }
+
+    function updateComments(comment) {
+        swal({
+            title: "Update Comments",
+            text: "",
+            type: "input",
+            showCancelButton: true,
+            confirmButtonColor: "#2196F3",
+            confirmButtonText: 'Submit',
+            closeOnConfirm: false,
+            animation: "slide-from-top",
+            inputPlaceholder: "Write comments here",
+            inputValue: comment.comments
+        }, (inputValue) => {
+            if (!inputValue) {
+                return false;
+            }
+            if (inputValue === "") {
+                swal.showInputError("You need to write something!");
+                return false
+            }
+
+            $.ajax({
+                url: `/index.php?r=student%2Fmy-u-e%2Fupdate-remark-comment`,
+                type: 'POST',
+                data: {
+                    comment_id: comment.id,
+                    comments: inputValue
+                },
+                success: (response) => {
+                    const responseBundle = JSON.parse(response);
+                    if (responseBundle.type == 1) {
+                        $('#remark_comments_' + comment.id).html(responseBundle.comments);
+                        comment.comments = responseBundle.comments;
+                        swal({
+                            title: "Success",
+                            text: responseBundle.message,
+                            type: "success",
+                            confirmButtonColor: "#2196F3"
+                        });
+                    } else {
+                        swal({
+                            title: "Error!",
+                            text: responseBundle.message,
+                            type: "error",
+                            confirmButtonColor: "red"
+                        });
+                    }
+                }
+            });
+
+
+        });
+    }
+
+    function deleteComments(commentId, remarkId) {
+        console.log('works');
+        swal({
+            title: 'Warning',
+            type: 'warning',
+            text: 'Do you really want to delete this comment?',
+            confirmButtonText: 'Yes, Delete It',
+            showCancelButton: true,
+            cancelButtonText: 'No'
+        }, (confirmed) => {
+            if (confirmed) {
+                $.ajax({
+                    url: `/index.php?r=student%2Fmy-u-e%2Fdelete-remark-comment`,
+                    type: 'POST',
+                    data: {
+                        comment_id: commentId
+                    },
+                    success: (response) => {
+                        const responseBundle = JSON.parse(response);
+                        if (responseBundle.type == 1) {
+                            const commentsList = document.getElementById('commentsList_' + remarkId);
+                            const deletedLi = document.getElementById('remark_comment_li_' + commentId);
+                            commentsList.removeChild(deletedLi);
+                            const lastLi = document.getElementById('commentsList_' + remarkId).lastChild;
+                            if (lastLi != undefined) {
+                                lastLi.style.border = 'none';
+                            }
+                            swal({
+                                title: 'Success',
+                                type: 'success',
+                                text: responseBundle.message
+                            });
+                        } else {
+                            swal({
+                                title: 'Error',
+                                type: 'error',
+                                text: responseBundle.message
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+    function createButton(type, icon, text) {
+        const btn = document.createElement('button');
+        const b = document.createElement('b');
+        const i = document.createElement('i');
+        i.classList.add(icon);
+        b.append(i);
+        btn.classList.add('btn', 'btn-sm', 'btn-labeled', 'btn-rounded');
+        btn.append(b);
+        btn.innerHTML = btn.innerHTML + text;
+        return btn;
+    }
+
+    function clearEvents(domElement) {
+        domElement.style.pointerEvents = 'none';
+        domElement.style.cursor = 'not-allowed';
+        domElement.classList.add('disabled');
+    }
+
+    function selectActor(domElement){
+        domElement.classList.toggle('actor-action-selected');
+        if (domElement.classList.contains('actor-action-selected')){
+            domElement.style.color = '#388E3C';
+            domElement.style.border = '1px solid #E8F5E9';
+            domElement.style.fontStyle = 'bold';
+        } else {
+            domElement.style.color = '#9E9E9E';
+            domElement.style.border = 'none';
+            domElement.style.fontStyle = 'normal';
+        }
+    }
+
+</script>
+    <!-- /footer -->
+        <!--/Footer-->
+
+
+
+
+
+
+        <script src="/assets/b581da56/jquery.js"></script>
+<script src="/assets/1b8ee344/yii.js"></script>
+<script src="/theme/assets/js/plugins/loaders/pace.min.js"></script>
+<script src="/theme/assets/js/core/libraries/bootstrap.min.js"></script>
+<script src="/theme/assets/js/plugins/loaders/blockui.min.js"></script>
+<script src="/theme/assets/js/plugins/forms/styling/uniform.min.js"></script>
+<script src="/theme/assets/js/plugins/extensions/session_timeout.min.js"></script>
+<script src="/theme/assets/js/plugins/visualization/d3/d3.min.js"></script>
+<script src="/theme/assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+<script src="/theme/assets/js/plugins/forms/styling/switchery.min.js"></script>
+<script src="/theme/assets/js/plugins/forms/styling/switch.min.js"></script>
+<script src="/theme/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+<script src="/theme/assets/js/plugins/forms/selects/select2.min.js"></script>
+<script src="/theme/assets/js/plugins/ui/moment/moment.min.js"></script>
+<script src="/theme/assets/js/plugins/notifications/sweet_alert.min.js"></script>
+<script src="/theme/assets/js/plugins/tables/datatables/datatables.min.js"></script>
+<script src="/theme/assets/js/plugins/pickers/anytime.min.js"></script>
+<script src="/theme/assets/js/plugins/pickers/daterangepicker.js"></script>
+<script src="/theme/assets/js/plugins/notifications/pnotify.min.js"></script>
+<script src="/theme/assets/js/plugins/ui/prism.min.js"></script>
+<script src="/theme/assets/js/plugins/forms/wizards/steps.min.js"></script>
+<script src="/theme/assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+<script src="/theme/assets/js/plugins/forms/validation/validate.min.js"></script>
+<script src="/theme/assets/js/plugins/extensions/cookie.js"></script>
+<script src="/theme/assets/js/plugins/uploaders/fileinput.min.js"></script>
+<script src="/theme/assets/js/plugins/notifications/jgrowl.min.js"></script>
+<script src="/theme/assets/js/plugins/pickers/pickadate/picker.js"></script>
+<script src="/theme/assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+<script src="/theme/assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+<script src="/theme/assets/js/plugins/pickers/pickadate/legacy.js"></script>
+<script src="/theme/assets/js/core/app.js"></script>    </body>
+</html>

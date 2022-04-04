@@ -1,0 +1,44 @@
+body{
+    font-weight: 200;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(214, 247, 247);
+}
+.home_dashboad{
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 80%;
+    color: rgb(211, 211, 219);
+    position: absolute; 
+    background-color: rgb(221, 233, 232);
+    margin: 0;
+    padding: 0;
+}
+
+.main-sidebar{
+    contain: content;
+    color: blue;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+.main-sidebar ul{
+    list-style: none;
+}
+.main-sidebar .header{
+    
+    display: inline;
+}
+
+.display_dashboard{
+    top: 0%;
+    bottom: 0;
+    left: 20%;
+    right: 0%;
+    background-color: rgb(214, 247, 247);
+
+    color: rgb(210, 210, 228);
+    position: absolute;
+}
